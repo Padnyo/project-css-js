@@ -146,6 +146,11 @@ html {
     background-color: rgb(193, 227, 211);
 }
 
+#code{
+    padding: 90px;
+    background-color: #abdfc1;
+}
+
 #guestbook{
     padding: 90px;
     background-color: rgb(215, 223, 219);
@@ -474,6 +479,11 @@ h2{
     margin: auto;
 }
 
+.web a{
+    text-decoration: none;
+    color: black;
+}
+
 h3{
     color: rgb(39, 24, 66);
     font-size: 25px;
@@ -576,4 +586,39 @@ h3{
 .comment {
     font-size: 14px;
 }
+}
+
+#code img {
+  width: 80%;
+  max-width: 900px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+#team a{
+    text-decoration-line: none;
+    color: black;
+}
+
+#team p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#code p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#team p a{
+    color: #664479;
+    font-weight: bolder;
+    background-color: #99efbd;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+#team p a:hover{
+    color: #d9aaf5;
 }
