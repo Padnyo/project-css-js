@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Pandyo - HOME</title>
+</head>
+<body>
+<nav class="navbar">
+    <div class="container">
+        <div class="logo">
+            <img class="logo_img" src="/image/logo.png">
+            <a class="logo_text" href="/index.html">Pandyo</a>
+        </div>
+        <ul class="menu">
+            <li><a href="#index" class="nanum-pen-script-regular">Index</a></li>
+            <li><a href="#about" class="nanum-pen-script-regular">About Me</a></li>
+            <li><a href="#project" class="nanum-pen-script-regular">Project</a></li>
+            <li><a href="#team" class="nanum-pen-script-regular">Team</a></li>
+            <li><a href="#guestbook" class="nanum-pen-script-regular">Guestbook</a></li>
+        </ul>
+    </div>
+</nav>
+<section class="main" id="index">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+    <h1>Pandyo</h1>
+        <br>
+        <div class="kkachili-container">
+        <img src="/image/inside_out.png" class="kkachili-face" id="kkachiliFace">
+        <div class="speech-bubble" id="kkachiliBubble"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</div>
+</section>
+<section class="main" id="about">
+    <div class="content">
+        <h1>About Me</h1>
+        <ul class="keyword">
+            <li># 집요한_디버깅러</li>
+            <li># 활동적</li>
+            <li># 효율성</li>
+            <li># 목표_지향적</li>
+        </ul>
+        <br>
+        <div class="card-container">
+
+            <div class="card-slide active" id="slide-1">
+                <h3>About Me</h3>
+                <div class="my">
+                <img src="/image/my.JPG" width="130px">
+                <p>
+                    Name : 박혜수<br>
+                    Old : 21살 (05)<br>
+                    Education : 중부대학교 정보보호학과<br>
+                    Interest : 클라우드, 웹 해킹<br>
+                    MBTI : ENTJ
+                </p>
+                </div>
+            </div>
+
+            <div class="card-slide" id="slide-2">
+                <h3>Tech Stack</h3>
+                <p>
+                Language : Python <img src="/image/python.png" width="14px"> , JavaScript <img src="/image/js.png" width="15px"><br>
+                Frontend : HTML <img src="/image/html.png" width="16px"> , CSS <img src="/image/css.png" width="17px"><br>
+                Backend : PHP <img src="/image/php.png" width="38px"><br>
+                Database : MySQL <img src="/image/mysql.png" width="19px"> , MongoDB <img src="/image/mongodb.png" width="20px"><br>
+                Cloud : AWS <img src="/image/aws.png" width="27px"> , jenkins <img src="/image/jenkins.png" width="26px"> , Terraform <img src="/image/terraform.png" width="16px"><br>
+                ETC : Notion <img src="/image/notion.png" width="16px"> , Slack <img src="/image/slack.png" width="20px"> , Atlantis <img src="/image/atlantis.png" width="20px">
+                </p>
+            </div>
+
+            <div class="card-slide" id="slide-3">
+                <h3>Blog</h3>
+                <p>
+                <img src="/image/tistory.png" width="20px"> Tistory : <a href="https://pandyo.tistory.com/">https://pandyo.tistory.com</a><br>
+                <img src="/image/github.png" width="20px"> GitHub : <a href="https://github.com/Padnyo">https://github.com/Padnyo</a><br>
+                <img src="/image/linkedin.png" width="20px"> Linkedin : <a href="https://www.linkedin.com/in/%ED%98%9C%EC%88%98-%EB%B0%95-48506b35a/">https://www.linkedin.com/in/혜수-박-48506b35a</a>
+                </p>
+            </div>
+
+            <div class="card-slide" id="slide-4">
+                <h3>Experience</h3>
+                <p>
+                - 정보보안 동아리 SCP (2024.03~)<br>
+                - 제29회 하계 해킹캠프 (2024.07)<br>
+                - KISA 버그헌팅 실습훈련 - 초급 (2024.07)<br>
+                - DevOps 아키텍처 구현 (2025.01~02)<br>
+                - 화이트 햇 스쿨 3th (2025.03~)<br>
+                - OCSF 기반 보안 로그 통합 및 분석 프로젝트<br>
+                </p>
+            </div>
+        </div>
+        <div class="card-buttons">
+            <button onclick="prevSlide()">← 이전</button>
+            <button onclick="nextSlide()">다음 →</button>
+        </div>
+    </div>
+</section>
+<section class="main" id="project">
+    <div class="content">
+        <h1>Project</h1>
+    </div>
+    <div class="web">
+        <h2>웹 프로그래밍 - 개발</h2>
+        <p class="date">2025.03 ~ 진행중</p>
+        <p>중부대학교 정보보호학과 전공 과목으로 웹 프로그래밍을 수강하며 웹 사이트를 제작하였습니다.</p>
+        <div class="web_project">
+            <a href="https://hcj-demo-xi.vercel.app">HCJ - DEMO <img class="web_img" src="/image/hcj-demo.png"></a>
+            <a href="https://project-html-ochre.vercel.app">Project - HTML <img class="web_img" src="/image/project-html.png"></a>
+        </div>
+        <p align="center" style="font-size: 15px; color: #9c9c9c; margin: 0 0 40px;">사진 클릭 시 웹 사이트로 이동됩니다.</p>
+        <hr>
+    </div>
+    <br>
+    <div class="devops">
+        <h2>DevOps CI/CD Pipeline 구축</h2>
+        <p class="date">2024.12 ~ 진행중</p>
+        <p><b>DevOps</b>란 개발팀과 운영팀이 협업하여 빠른 배포 주기를 자동화하는 프로세스, 문화, 방법을 말합니다. 
+            DevOps를 구현하기 위한 방법으로는 <b>지속적인 통합(CI)</b>와 <b>지속적인 배포(CD)</b>를 의미하는 CI/CD 파이프라인을
+            이용한 프로젝트를 진행하였습니다.</p><br>
+            <img class="devops" src="/image/devops.png">
+            <br>
+            <br>
+        <div class="division">
+            <div>
+                <h3>Pipelein 아키텍처</h3>
+                파이프라인은 AWS의 서비스를 이용하여 오른쪽과 같이 구성하였습니다.
+                <ol>
+                    <li>GitHub에서 Code가 Push되면 파이프라인이 트리거</li>
+                    <li>Docker 이미지 생성 및 SCA, SAST 분석 후 S3 버킷에 업로드</li>
+                    <li>빌드된 Docker 이미지를 ECR 프라이빗 리포지토리에 저장</li>
+                    <li>지정된 Cluster에 Task 정의를 통해 서비스를 Rolling Update 배포</li>
+                    <li>OWASP ZAP으로 ECS 서비스 스캔 후 S3 버킷에 업로드</li>
+                    <li>CloudWatch의 로그 및 메트릭 수집 내용을 Grafana로 시각화</li>
+                </ol>
+            </div>
+            <img class="pipeline" src="/image/pipeline.png">
+        </div>
+    </div>
+</section>
+<section class="main" id="team">
+    <div class="content">
+        <h1>Team</h1>
+    </div>
+      <div class="team-container">
+    <div class="card" data-comments='["중부대학교 정보보호학전공", "동아리 : Security Check Point", "프로젝트 : Pentesting Playground (모의해킹 실습 사이트 제작)"]' data-static="/image/부럽이.png" data-animated="/image/부럽이.gif">
+        <img src="/image/부럽이.png">
+        <div class="name">곽민경</div>
+      <div class="comment"></div>
+    </div>
+    <div class="card" data-comments='["중부대학교 정보보호학전공", "동아리 : Security Check Point", "프로젝트 : OCSF 기반 보안 로그 통합 및 분석"]' data-static="/image/까칠이.png" data-animated="/image/까칠이.gif">
+      <img src="/image/까칠이.png">
+      <div class="name">박혜수</div>
+      <div class="comment"></div>
+    </div>
+    <div class="card" data-comments='["중부대학교 정보보호학전공", "동아리 : Security Check Point", "프로젝트 : 코드엔진 컨퍼런스"]' data-static="/image/버럭이.png" data-animated="/image/버럭이.gif">
+      <img src="/image/버럭이.png">
+        <div class="name">윤주원</div>
+      <div class="comment"></div>
+    </div>
+    <div class="card" data-comments='["중부대학교 정보보호학전공", "동아리 : 멋쟁이사자처럼", "프로젝트 : 게시판 제작"]' data-static="/image/따분이.png" data-animated="/image/따분이.gif">
+        <img src="/image/따분이.png">
+        <div class="name">윤주혁</div>
+      <div class="comment"></div>
+    </div>
+  </div>
+    </div>
+</section>
+<section class="main" id="guestbook">
+      <div id="list_wrap">
+      <h2>방명록</h2>
+      <div class="guestbook-form">
+        <input id="guestbookinput" placeholder="방명록을 입력해보세요">
+        <button id="add">추가</button>
+      </div>
+      <ul id="guestbooklist"></ul>
+    </div>
+</section>
+<footer>
+    <hr>
+    <a href="https://github.com/Padnyo"><img src="/image/github.png" width="2%"></a>
+    <a href="https://pandyo.tistory.com/"><img src="/image/tistory.png" width="2%"></a>
+    <a href="https://www.linkedin.com/in/%ED%98%9C%EC%88%98-%EB%B0%95-48506b35a/"><img src="/image/linkedin.png" width="2%"></a>
+    <br>Copyright © 2025 pandyo
+    <br>Contact: keshupark0113@jmail.ac.kr | 010-1234-5678
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
